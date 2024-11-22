@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-
+    serif;
+    
+    }
+    
+    .navbarlink {
+    text-decoration: none;
+    }
+    
+    .navcontainer {
+    margin: 0px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 320px;
+    background-image: url("nav.jpg");
+    background-size: 100%;
+    position: relative;
+    background-attachment: fixed;
+    
+    }
+    
+    .navbar {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    left: 50px;
+    background-color: aliceblue;
+    height: 40px;
+    width: 500px;
+    margin: auto;
+    border-radius: 25px;
+    
+    }
+    
+    .logo {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    }
+    
+    .links {
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+    
+    color: rgb(74, 54, 29);
+    position: relative;
+    left: 230px;
+    top: 10px;
+    margin-left: 5px;
+    }
+    
+    .title {
+    position: absolute;
+    margin-left: 44%;
+    top: 190px;
+    }
+    
+    .textlikebotton {
+    position: relative;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(161, 134, 75);
+    text-align: center;
+    align-content: center;
+    height: 40px;
+    width: 150px;
+    margin-top: 5px;
+    
+    left: 25px;
+    
+    }
+    .maincircular{
+    position: absolute;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    }
+    .circular{
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: rgb(167, 126, 76);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    }
+    .title1 h3 {
+    margin: 9px 35% 10px 47%;
+    }
+    .title1 h6{
+    margin-left: 42%;
+    
+    opacity: 0.5;
+    }
+    .cube {
+    display: inline-block;
+    position: absolute;
+    top: 510px;
+    left: 33%;
+    }
+    .cube1 {
+    display: inline-block;
+    height: 130px;
+    width: 129px;
+    background-color: bisque;
+    margin-left: 11px;
+    }
+    
+    .title2 h3 {
+    font-size: 15PX;
+    position: absolute;
+    margin: 10px 35% 10px 47%;
+    top: 658px;
+    }
+    .title2 h6 {
+    
+    top: 685px;
+    margin-left: 46%;
+    position: absolute;
+    opacity: 0.5;
+    }
+    .portfolio {
+    display: inline-block;
+    height: 301px;
+    width: 812px;
+    position: absolute;
+    top: 769px;
+    left: 418px;
+    }
+    
+    img{
+    height: 150px;
+    width: 200px;
+    }
+    .im1{
+    display: inline-block;
+    }

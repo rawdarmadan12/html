@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <table border="1" width="100%" cellpadding="10">
+        <tr>
+            <th colspan="2">Registration Form</th>
+        </tr>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="firstname"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="lastname"></td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>Pass</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>Track</td>
+            <td>
+                <select name="track">
+                    <option value="BI">BI</option>
+                    <option value="AI">AI</option>
+                    <option value="CS">CS</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+            
+               <input type="radio" name="gender" value="male"> Male 
+               <br>
+               <input type="radio" name="gender" value="female"> Female 
+            </td>
+        </tr>
+        <tr>
+            <td>Favorites</td>
+            <td>
+                <input type="checkbox" name="favorites" value="football"> Football
+                <input type="checkbox" name="favorites" value="basketball"> Basketball
+                <br>
+                <input type="checkbox" name="favorites" value="games"> Games
+                <br>
+                <input type="checkbox" name="favorites" value="reading"> Reading
+                <input type="checkbox" name="favorites" value="swimming"> Swimming
+                <br>
+                <input type="checkbox" name="favorites" value="Trave"> Trave
+            
+            </td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td><textarea name="description" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="sumbit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="file" name="fileupload">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

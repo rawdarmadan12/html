@@ -1,0 +1,127 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+
+.header {
+  background: rgb(114, 99, 68);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  position: sticky;
+  top: 0;
+  z-index: 900;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  float: right;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #0f0e0e;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+
+.hero {
+  background: url('https://i.pinimg.com/474x/a6/12/9e/a6129eb5ca261c07e79a88795d602ac4.jpg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  color: rgb(196, 105, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.hero-content p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.hero-content button {
+  background: #333;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Services Section */
+.services {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.services h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.service-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: 20%;
+  height: 160px;
+  background: #bea89b;
+}
+
+/* Portfolio Section */
+.portfolio {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.portfolio h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.portfolio p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-item {
+  width: 25%;
+  margin-bottom: 20px
+}
+
+.portfolio-item img {
+  width: 50%;
+  display: block;
+}
